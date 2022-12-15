@@ -1,0 +1,131 @@
+ @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
+ @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
+
+     
+ div             { padding:10px;}
+ #container		{ background-color:#ffffff; width:960px; height: 800px; display: flex; margin:auto;}
+ #header			{ background-color:#908886; width:100%; height:120px; background-color: #E6002D; }
+ #content		{  float:left; width:640px; height:800px; margin: auto;}
+ #footer			{ background-color:black ;height:100px; width: 100%; }
+ #fieldset{
+     display: flex;
+ }
+ #login{
+ border :none;
+}
+#loginbox{
+ margin: auto;
+ height: 800px;
+ width: 800px;
+ transform: translate(0,300px);
+}
+ body{
+    margin:0 auto;
+ }
+ /* body, table, div, p ,span{font-family:'Nanum Gothic';} */
+ body, table, div, p ,span{font-family:'Noto Sans KR';}
+ 
+ a{
+     text-decoration: none;
+     color:#333;
+ }
+ #con{
+     width:100%;
+     height: 100vh;
+     background-color:#f5f1ee;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size:cover;
+     padding:0;
+ }
+ #login{
+     width:600px;
+     height: 600px;
+     margin:0 auto;
+     /* position: relative; */
+     /* background:#ddd; */
+
+ }
+ #login_form{
+     /* text-align:center; */
+     border-radius: 10px;
+     padding:50px;
+     background: #fff;
+     text-align: center;
+     position: absolute;
+     top:58%;
+     left:50%;
+     transform: translate(-50%, -50%);
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(153, 9, 9, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(189, 3, 3, 0.17) 0px 12px 13px, rgba(249, 0, 0, 0.09) 0px -3px 5px;
+ }
+ .login{
+     font-size:25px;
+     font-weight: 900;
+     color:#333;
+ }
+
+ .size{
+     width:250px;
+     height:30px;
+     padding-left:10px;
+     background-color: #f4f4f4;
+     /* margin-left:10px; */
+     border:none;
+     border-radius: 5px;
+ }
+
+ .btn{
+     width:310px;
+     height: 40px;
+     font-size:15px;
+     background-color: #E6002D;
+     color:#fff;
+     border:none;
+     cursor: pointer;
+     border-radius: 15px;
+ }
+ .btn:hover{
+     background:#ca296a;
+ }
+ hr{
+     margin-top:20px;
+     background:#eee;
+     
+ }
+ .find{
+     color:#ddd;
+     font-size:12px;
+ }
+ .find span{
+     padding-left:10px;
+ }
+ .find span::before{
+     content:'|';
+     color:#333;
+     padding-right: 10px;
+ }
+ .find span:nth-child(1):before{
+     content:none;
+ }
+ 
+ .find span:nth-child(1){
+     padding-left:0px;
+ }
+ 
+ .find a:hover{
+     color:#707070;
+ }
+
+ #banner {
+    position: fixed;  /*고정*/
+    width: 162px;  /*가로길이*/
+    height: 835px;  /*세로길이*/
+    right: 2px;      /*위치 지정 : 오른쪽에서 몇 px에 위치, 왼쪽 배너이면 left : 2px; */
+    top: 48px;     /* 위치 지정 : 상단에서 몇 px에 위치, 하단부터라면 bottom:48px; */
+    text-align:center;  /*중앙정렬*/
+    background-color: black
+    ;
+    }
+p#ptag{
+        text-align: left; font-size:12px; color:#666"
+    }

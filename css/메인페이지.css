@@ -1,0 +1,89 @@
+body            {margin: 0; background-color: #E6002D;}
+div             { padding:10px;}
+#container		{ background-color:#ffffff; width:1400px; height: 990px; display: flex; margin:auto; background-color: #E6002D; padding: 0;}
+/* #container		{ background-color:#ffffff; width:100%; height: 900px; display: flex; margin:auto; background-color: hsl(0, 0%, 100%);} */
+#header			{ background-color:#ffffff; width:100%; height:80px; background-color: #E6002D; display: flex; padding:0px;}
+#content		{  float:left; width:640px; height: 800px; margin: auto; border: 1px solid black;}
+#footer			{ background-color:black ;height:50px;width: 100%; }
+#footer2        { background-color:#554f4f ;height:50px;width: 100%; }
+#fieldset{
+    display: flex;
+}
+#box1{
+    font-family:'Noto Serif Korean','Klee One';
+    font-weight: 800;
+}
+#headermenubox{
+    width:100%;
+    display: flex;
+    padding :0px
+}
+#headermenubox ul{  
+color: white;
+list-style: none;
+width: 70%;
+}
+#sns_box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin: 0px;
+}
+.menu li {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.menu li:hover{
+    background-color: rgb(178, 30, 30);
+}
+.menu li a{
+    font-weight: 400;
+    font-size: large;
+    text-decoration: none;
+            color: #ffffff;
+}
+#adv_box{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+#box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+
+}
+#box li { 
+    margin: 0;
+    width: 100%;
+}
+
+#banner {
+    position: fixed;
+    width: 64px;
+    height: 457px;
+    right: -1px;
+    top: 270px;
+    text-align: center;
+    
+}
+
+
+
+
+
+/*   <li id="myface" style="background-image: url(./image/중꺽마.jpg); background-size: 100%; background-repeat: no-repeat;">
+                </li>
+                <li id="myprofile" style="background-image:url(./image/KFA로고.png);background-size: 100%; background-position: center;
+                background-repeat: no-repeat;"> */

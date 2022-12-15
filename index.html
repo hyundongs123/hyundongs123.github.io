@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style>
+html{background-color: #908886;}
+div             { padding:10px;}
+#container		{ background-color:#ffffff; width:960px; display: flex; margin:auto;}
+#header			{ background-color:#908886; width:100%; height:120px; background-color: #E6002D; }
+#content		{  float:left; width:640px; height:800px; margin: auto;}
+#footer			{ background-color:black ;height:100px; }
+#fieldset{
+    display: flex;
+    
+}
+#login{
+    border :none;
+}
+#loginbox{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    transform: translate(0,300px);
+    /* border: 1px solid black; */
+}
+</style>
+
+<title>html5이전 페이지 레이아웃</title>
+
+</head>
+	<body>
+        <div id="header">
+            <div><img src="./image/KFA로고.png" alt="KFA로고" id="kfalogo"></div>
+        </div>
+		<div id="container">
+			<div id="content">
+                <div id="loginbox">
+                <fieldset id="login">
+                    <legend>로그인</legend>
+                    <input type="text" value="아이디">
+                    <input type="text" value="비밀번호">
+                    <a href="메인페이지.html"><button>KFA로그인</button></a>
+                    <a href="회원가입.html"><button>회원가입</button></a>
+                </fieldset>
+                </div>
+            </div>
+		</div>
+			<div id="footer"></div>
+	</body>
+
+</html>
+
