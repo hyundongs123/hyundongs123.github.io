@@ -2,11 +2,11 @@
 myface.addEventListener('click',(e)=>{
     $("#myface").css("transition-duration","2s")
    setTimeout(() => {
-   $("#myface").css({"background":"url(../image/현동3크기조정.PNG)"}).css("backgroundSize","100%")
+   $("#myface").css({"background":"url(./image/현동3크기조정.png)"}).css("backgroundSize","100%")
    setTimeout(() =>{
-   $("#myface").css({"background":"url(../image/현동2크기조정.PNG)"}).css("transition-duration","2s").css("backgroundSize","100%")
+   $("#myface").css({"background":"url(./image/현동2크기조정.png)"}).css("transition-duration","2s").css("backgroundSize","100%")
    setTimeout(() => {
-   $("#myface").css({"background":"url(../image/현동1크기조정.PNG)"}).css("backgroundSize","100%")
+   $("#myface").css({"background":"url(./image/현동1크기조정.png)"}).css("backgroundSize","100%")
    
 }, 400);
 }, 400);
